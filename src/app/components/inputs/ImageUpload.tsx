@@ -24,7 +24,7 @@ const ImageUpload: React.FC<ImageUploadProps> = ({ onChange, value }) => {
   return (
     <CldUploadWidget
       onUpload={handleUpload}
-      uploadPreset={process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}
+      uploadPreset="a7jhealy"
       options={{
         maxFiles: 1,
       }}
